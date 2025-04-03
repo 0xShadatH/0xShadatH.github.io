@@ -1,0 +1,16 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+body {
+  font-size: 16px; /* Modify this value to your desired font size */
+}
+p {
+  font-size: 20px;
+}
